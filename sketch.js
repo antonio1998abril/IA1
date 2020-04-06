@@ -62,7 +62,7 @@ function draw() {
         status = algoStatus + "\nPopulation: " + populationSize + "\nGeneration: " + nGeneration; // + "\nHeuristic sum: " + sumPathHeuristic;
     }
     else{
-        status = algoStatus + "\nComprobado: " + checked + "\nLogintud de la trayectoria: " + pathlength + "\nCosto: " + price;
+        status = algoStatus + "\nComprobado: " + checked + "\nLongitud de la trayectoria: " + pathlength + "\nCosto: " + price;
     }
     let resultStatus = prevStatus;
     if (showStatus){
